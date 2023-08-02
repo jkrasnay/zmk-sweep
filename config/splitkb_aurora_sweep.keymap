@@ -27,8 +27,8 @@
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
 // │  Z  │  X  │  C  │  V  │  B  │   │  N  │  M  │ , < │ . > │ / ? │
 // ╰─────┴─────┴─────┼─────┼─────┤   ├─────┼─────┼─────┴─────┴─────╯
-//                   │ Tab │ Bksp│   │ Spc │ Ent │
-//                   │ Lay3│ Lay2│   │ Shft│     │
+//                   │ Tab │ Shft│   │ Spc │ Ent │
+//                   │ Lay3│     │   │ Lay2│     │
 //                   ╰─────┴─────╯   ╰─────┴─────╯
 
         default_layer {
@@ -37,7 +37,7 @@
         &kp Q    &kp W       &kp E       &kp R       &kp T         &kp Y         &kp U       &kp I       &kp O       &kp P
         &lt 1 A  &mt LCTL S  &mt LALT D  &mt LGUI F  &kp G         &kp H         &mt RGUI J  &mt RALT K  &mt RCTL L  &lt 1 SEMI
         &kp Z    &kp X       &kp C       &kp V       &kp B         &kp N         &kp M       &kp CMMA    &kp DOT     &kp SLASH
-                                         &lt 3 TAB   &lt 2 BSPC    &mt LSFT SPC  &kp ENTER
+                                         &lt 3 TAB   &kp LSFT      &lt 2 SPC     &kp ENTER
         >;
         };
 
@@ -46,9 +46,9 @@
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
 // │  ~  │  +  │  {  │  }  │  "  │   │  ←  │  ↓  │  ↑  │  →  │  |  │
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
-// │  `  │  =  │  [  │  ]  │  '  │   │ Lay2│  -  │  _  │     │  \  │
+// │  `  │  =  │  [  │  ]  │  '  │   │     │  -  │  _  │     │  \  │
 // ╰─────┴─────┴─────┼─────┼─────┤   ├─────┼─────┼─────┴─────┴─────╯
-//                   │ Esc │ Del │   │CapLk│     │
+//                   │ Esc │ Bksp│   │ Del │     │
 //                   ╰─────┴─────╯   ╰─────┴─────╯
 
         right_layer {
@@ -56,8 +56,8 @@
 
         &kp BANG   &kp ATSN   &kp HASH  &kp DLLR  &kp PRCT    &kp CRRT  &kp AMPS   &kp KMLT   &kp LPRN   &kp RPRN
         &kp TILDE  &kp KPLS   &kp LBRC  &kp RBRC  &kp DQT     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp PIPE
-        &kp GRAVE  &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT     &to 2     &kp MINUS  &kp UNDER  &trans     &kp BSLH
-                                        &kp ESC   &kp DEL     &kp CAPS  &trans
+        &kp GRAVE  &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT     &trans    &kp MINUS  &kp UNDER  &trans     &kp BSLH
+                                        &kp ESC   &kp BKSP    &kp DEL   &trans
         >;
         };
 
@@ -86,7 +86,7 @@
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
 // │ BT1 │ BT2 │ BT3 │ BT4 │ BT5 │   │ Home│ PgDn│ PgUp│ End │     │
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
-// │     │     │     │     │BTClr│   │     │     │     │     │CapLk│
+// │     │     │     │     │BTClr│   │     │     │     │     │     │
 // ╰─────┴─────┴─────┼─────┼─────┤   ├─────┼─────┼─────┴─────┴─────╯
 //                   │     │     │   │     │     │
 //                   ╰─────┴─────╯   ╰─────┴─────╯
