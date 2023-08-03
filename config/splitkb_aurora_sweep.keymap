@@ -48,7 +48,7 @@
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
 // │  `  │  =  │  [  │  ]  │  '  │   │     │  -  │  _  │     │  \  │
 // ╰─────┴─────┴─────┼─────┼─────┤   ├─────┼─────┼─────┴─────┴─────╯
-//                   │ Esc │ Bksp│   │ Del │     │
+//                   │ Esc │ Del │   │ Bksp│     │
 //                   ╰─────┴─────╯   ╰─────┴─────╯
 
         right_layer {
@@ -57,7 +57,7 @@
         &kp BANG   &kp ATSN   &kp HASH  &kp DLLR  &kp PRCT    &kp CRRT  &kp AMPS   &kp KMLT   &kp LPRN   &kp RPRN
         &kp TILDE  &kp KPLS   &kp LBRC  &kp RBRC  &kp DQT     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp PIPE
         &kp GRAVE  &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT     &trans    &kp MINUS  &kp UNDER  &trans     &kp BSLH
-                                        &kp ESC   &kp BKSP    &kp DEL   &trans
+                                        &kp ESC   &kp DEL     &kp BKSP  &trans
         >;
         };
 
