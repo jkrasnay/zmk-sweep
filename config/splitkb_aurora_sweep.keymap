@@ -46,9 +46,9 @@
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
 // │  ~  │  +  │  {  │  }  │  "  │   │  ←  │  ↓  │  ↑  │  →  │  |  │
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
-// │  `  │  =  │  [  │  ]  │  '  │   │     │  -  │  _  │     │  \  │
+// │  `  │  =  │  [  │  ]  │  '  │   │ Bksp│  -  │  _  │     │  \  │
 // ╰─────┴─────┴─────┼─────┼─────┤   ├─────┼─────┼─────┴─────┴─────╯
-//                   │ Esc │ Del │   │ Bksp│     │
+//                   │ Esc │ Del │   │     │     │
 //                   ╰─────┴─────╯   ╰─────┴─────╯
 
         right_layer {
@@ -56,8 +56,8 @@
 
         &kp BANG   &kp ATSN   &kp HASH  &kp DLLR  &kp PRCT    &kp CRRT  &kp AMPS   &kp KMLT   &kp LPRN   &kp RPRN
         &kp TILDE  &kp KPLS   &kp LBRC  &kp RBRC  &kp DQT     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp PIPE
-        &kp GRAVE  &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT     &trans    &kp MINUS  &kp UNDER  &trans     &kp BSLH
-                                        &kp ESC   &kp DEL     &kp BKSP  &trans
+        &kp GRAVE  &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT     &kp BKSP  &kp MINUS  &kp UNDER  &trans     &kp BSLH
+                                        &kp ESC   &kp DEL     &trans    &trans
         >;
         };
 
@@ -66,7 +66,7 @@
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
 // │  1  │  2  │  3  │  4  │  5  │   │  6  │  7  │  8  │  9  │  0  │
 // ├─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┤
-// │ F11 │ F12 │ F13 │ F14 │ F15 │   │  $  │  -  │  ,  │  .  │     │
+// │ F11 │ F12 │ F13 │ F14 │ F15 │   │ Bksp│  -  │  ,  │  .  │     │
 // ╰─────┴─────┴─────┼─────┼─────┤   ├─────┼─────┼─────┴─────┴─────╯
 //                   │ Lay0│     │   │     │     │
 //                   ╰─────┴─────╯   ╰─────┴─────╯
@@ -76,7 +76,7 @@
 
         &kp F1     &kp F2     &kp F3     &kp F4     &kp F5       &kp F6     &kp F7     &kp F8     &kp F9     &kp F10
         &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5    &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0
-        &kp F11    &kp F12    &kp F13    &kp F14    &kp F15      &kp DLLR   &kp MINUS  &kp CMMA   &kp DOT    &trans
+        &kp F11    &kp F12    &kp F13    &kp F14    &kp F15      &kp BKSP   &kp MINUS  &kp CMMA   &kp DOT    &trans
                                          &to 0      &trans       &trans     &trans
         >;
         };
